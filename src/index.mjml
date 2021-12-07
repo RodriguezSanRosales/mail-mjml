@@ -1,0 +1,199 @@
+<mjml>
+   <mj-head>
+      <mj-attributes>
+         <mj-text padding="0" color="#242424" />
+         <mj-class name="big" font-size="45px" />
+         <mj-class name="background"/>
+         <mj-all font-family=" 'Verdana','Helvetica', 'Arial', sans-serif" />
+         <mj-navbar-link font-size="10px" padding="0px 15px"  color="#ffffff">
+      </mj-attributes>
+      
+   </mj-head>
+   <mj-breakpoint width="580px" />
+   <mj-body background-color="#f5f5f5" width="680px">
+      <mj-section
+         padding="20px 10px"
+         background-url="images/mountains-ga48392b0e_640.png"
+         background-size="cover" background-repeat="no-repeat"
+         
+      >
+         <mj-column>
+               <mj-navbar base-url="#" hamburger="hamburger" ico-color="#ffffff" ico-align="right">
+                  <mj-navbar-link href="#">Getting started</mj-navbar-link>
+                  <mj-navbar-link href="#">Try it live</mj-navbar-link>
+                  <mj-navbar-link href="#">Templates</mj-navbar-link>
+                  <mj-navbar-link href="#">Components</mj-navbar-link>
+               </mj-navbar>
+               <mj-spacer height="20px" />
+               <mj-text  align="center" font-size="10px">
+                  uis autem vel eum iure reprehenderit qui 
+               </mj-text>
+               <mj-spacer height="10px" />
+               <mj-text  align="center" mj-class="big" font-weight="bold">
+                  TRAVEL GUIDE
+               </mj-text>
+               <mj-spacer height="250px" />
+         </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f7f7f7">
+          <mj-column width="480px"  padding="20px">
+            <mj-text align="center" line-height="15px" >
+               Lorem ipsum dolor sit amet, consectetur adipisc labore et dolore magna aliquao laboris nisi ut aliquip ex ea commodo conseq liquip.
+            </mj-text>
+         </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding="40px 0px">
+         <mj-column width="50%" vertical-align="middle" padding="0 20px">
+           <mj-image border-radius="10px" align="center" padding="10px 0" align="left" src="images/cherry-blossoms-and-sensoji-temple-in-asakusa-tokyo-japan.jpg" />
+         </mj-column>
+         <mj-column width="50%" vertical-align="middle" padding="0 20px">
+            <mj-text font-size="20px" font-weight="bold" color="#e84275"  line-height="25px" text-transform="uppercase">
+               Sed do eiusmod tempor incididunt ut labore
+            </mj-text>
+            <mj-spacer height="20px" />
+            <mj-text  padding-right="50px" line-height="15px">
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </mj-text>
+         </mj-column>
+      </mj-section>
+
+       <mj-section background-color="#ffffff" padding="40px 0px" direction="rtl">
+         <mj-column width="50%" vertical-align="middle" padding="0 20px">
+           <mj-image border-radius="10px" align="center" padding="10px 0" align="left" src="images/london-g55d205142_640.jpg" />
+         </mj-column>
+         <mj-column width="50%" vertical-align="middle" padding="0 20px">
+            <mj-text font-size="20px" font-weight="bold" color="#e84275" align="right" line-height="25px" text-transform="uppercase">
+               Sed do eiusmod tempor incididunt ut labore
+            </mj-text>
+            <mj-spacer height="20px" />
+            <mj-text align="right" padding-left="50px" line-height="15px">
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </mj-text>
+         </mj-column>
+      </mj-section>
+       <mj-section background-color="#ffffff" padding-top="30px">
+          <mj-column width="500px"  padding="20px">
+            <mj-text align="center" font-size="20px" font-weight="bold"  line-height="25px">
+               Lorem ipsum dolor sit sectetu bore et dolore magnaq
+            </mj-text>
+            <mj-spacer height="20px" />
+            <mj-text align="center" line-height="15px">
+               Lorem ipsum dolor sit amet, consectetur adipisc labore et dolore magna aliquea commodo conseq.<br> Labore et dolore magna. 
+            </mj-text>
+            <mj-spacer height="15px" />
+            <mj-button background-color="#e84275" color="white" border-radius="10px">
+            Click me!
+            </mj-button>
+         </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-bottom="50px">
+         <mj-column width="400px" padding="0px 20px">
+            <mj-carousel border-radius="10px" thumbnails="hidden" left-icon="images/left-arrow.png" right-icon="images/right-arrow.png" icon-width="20px">
+               <mj-carousel-image src="images/couple-of-tourists-with-backpacks-on-mountain.jpg" />
+               <mj-carousel-image src="images/stockholm-g9d78a1aae_640.jpg" />
+               <mj-carousel-image src="images/female-tourists-spread-their-arms-and-held-their-wings.jpg" />
+            </mj-carousel>
+         </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#2c2c7d"  padding="45px 20px">
+         <mj-column width="300px">
+            <mj-text align="right" line-height="48px" color="#ffffff" text-transform="uppercase" font-size="44px">
+               Lorem ipum dolor sit amet
+            </mj-text>
+         </mj-column>
+         <mj-column padding="30px 20px" padding-left="40px">
+            <mj-text align="left" line-height="20px" color="#ffffff" font-size="12px">
+               Lorem ipsum dolor sit<br> amet consectetur adipisc<br> labore et dolore magna aliquea<br> secte tsectet gdarg.
+            </mj-text>
+         </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding="50px 30px">
+          <mj-column padding="20px">
+            <mj-image width="45px" src="images/passport.png" alt="" />
+            <mj-divider border-width="1px" width="25px" border-style="dashed" border-color="#e84275" />
+            <mj-text align="center"  line-height="15px">
+               Lorem ipsum dolor sit amet
+            </mj-text>
+         </mj-column>
+         <mj-column  padding="20px">
+            <mj-image width="45px" src="images/plane.png" alt="" />
+            <mj-divider border-width="1px" width="25px" border-style="dashed" border-color="#e84275" />
+            <mj-text align="center" line-height="15px">
+               Lorem ipsum dolor sit amet
+            </mj-text>
+         </mj-column>
+         <mj-column  padding="20px">
+            <mj-image width="45px" src="images/travel-luggage.png" alt="" />
+            <mj-divider border-width="1px" width="25px" border-style="dashed" border-color="#e84275" />
+            <mj-text align="center" line-height="15px">
+               Lorem ipsum dolor sit amet
+            </mj-text>
+         </mj-column>
+         <mj-column  padding="20px">
+            <mj-image width="45px" src="images/destination.png" alt="" />
+            <mj-divider border-width="1px" width="25px" border-style="dashed" border-color="#e84275" />
+            <mj-text align="center" line-height="15px">
+               Lorem ipsum dolor sit amet
+            </mj-text>
+         </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/female-tourists-spread-their-arms-and-held-their-wings.jpg" alt="" />
+         </mj-column>
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/couple-of-tourists-with-backpacks-on-mountain.jpg" alt="" />
+         </mj-column>
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/stockholm-g9d78a1aae_640.jpg" alt="" />
+         </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/london-g55d205142_640.jpg" alt="" />
+         </mj-column>
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/cherry-blossoms-and-sensoji-temple-in-asakusa-tokyo-japan.jpg" alt="" />
+         </mj-column>
+         <mj-column padding="0px">
+             <mj-image border="2px solid #ffffff" padding="0px" src="images/female-tourists-spread-their-arms-and-held-their-wings.jpg" alt="" />
+         </mj-column>
+      </mj-section>
+      <mj-section padding="50px 20px" background-color="#ffffff">
+         <mj-column>
+         <mj-accordion border="2px solid #2c2c7d">
+            <mj-accordion-element icon-wrapped-url="images/plus.png" icon-height="20px" icon-width="20px">
+               <mj-accordion-title color="#e84275">Why use an accordion?</mj-accordion-title>
+               <mj-accordion-text color="#242424" >
+               <span style="line-height:20px">
+                  Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+               </span>
+               </mj-accordion-text>
+            </mj-accordion-element>
+            <mj-accordion-element icon-wrapped-url="images/plus.png" icon-height="20px" icon-width="20px">
+               <mj-accordion-title color="#e84275">How it works</mj-accordion-title>
+               <mj-accordion-text color="#242424" >
+               <span style="line-height:20px">
+                  Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
+               </span>
+               </mj-accordion-text>
+            </mj-accordion-element>
+         </mj-accordion>
+         </mj-column>
+      </mj-section>
+      <mj-section background-color="#e84275"  padding="15px 20px">
+          <mj-column>
+            <mj-text align="right" line-height="15px" color="#ffffff" font-size="11px"  >
+               Lorem ipsum dolor sit amet
+            </mj-text>
+         </mj-column>
+      </mj-section>
+
+   </mj-body>
+
+</mjml>

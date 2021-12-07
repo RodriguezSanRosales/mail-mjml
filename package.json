@@ -1,0 +1,22 @@
+{
+  "name": "mails-mjml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output src/index.html",
+    
+    "build": "mjml src/index.mjml --output src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "live-server": "^1.2.1"
+  }
+}
